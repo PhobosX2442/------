@@ -1,0 +1,60 @@
+body 
+    {margin: 0px;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+h1
+    {font-size: 300%;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 4px black;
+}
+
+a   
+    {text-decoration: none;
+    color: rgb(238, 182, 143);}
+
+a:hover
+    {color: chocolate;
+}
+
+li
+    {display: inline-flex;
+    margin: 0px 5px;
+}
+
+.btn   
+    {text-decoration: none;
+    color: white;
+    background: rgb(70, 39, 14);
+    padding: 10px;
+    transition: 1s;
+    font-size: 80%;
+}
+
+.btn:hover
+    {background: rgb(131, 67, 8);
+    color: white;
+}
+
+.picture {
+    background: none;
+    transition: 2s;
+}
+
+.picture:hover {
+    background: none;
+    transform: scale(1.2);
+}
+
+header 
+    {background: rgba(78, 47, 22, 0.349);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section
+    {margin: 40px 10% 20px 10%;
+}
