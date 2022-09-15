@@ -100,6 +100,10 @@ section
 .slick-arrow.slick-prev {
     left: 0;
     background:url('images/buttons/left.svg') 0 0 / 100% no-repeat;}
+.slick-arrow.slick-prev:hover {
+    background: url(images/buttons/lefthover.svg) 0 0 / 100% no-repeat;}
+.slick-arrow.slick-next:hover {
+    background: url(images/buttons/righthover.svg) 0 0 / 100% no-repeat;}
 .slick-arrow.slick-next {
     right: 0;
     background: url('images/buttons/right.svg') 0 0 / 100% no-repeat;}
