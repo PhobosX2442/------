@@ -97,7 +97,6 @@ section
 /* Слайдер */
 .slick-list {overflow: hidden;}
 .slick-track {display: flex; align-items: flex-start;}
-.slick-arrow.slick-disabled {opacity: 0.1;}
 .slick-arrow.slick-prev {
     left: 0;
     background:url('images/buttons/left.svg') 0 0 / 100% no-repeat;}
