@@ -18,6 +18,8 @@ h1
 h2
     {font-size: 140%;
     font-weight: bold;}
+h3 {
+    line-height: 120%;}
 h4
     {font-size: 80%;}
 
@@ -33,31 +35,27 @@ li
     {display: inline-flex;
     margin: 0px 5px;
 }
-
+/* Кнопка */
 .btn   
     {text-decoration: none;
     color: white;
     background: rgb(70, 39, 14);
     padding: 10px;
-    transition: 1s;
-    font-size: 80%;
-}
-
+    transition: 0.7s;
+    font-size: 80%;}
 .btn:hover
     {background: rgb(131, 67, 8);
-    color: white;
-}
+    color: white;}
 
+/* Логотип */
 .picture {
     background: none;
-    transition: 2s;
-}
-
+    transition: 2s;}
 .picture:hover {
     background: none;
-    transform: scale(1.2);
-}
+    transform: scale(1.2);}
 
+/* Шапка */
 header 
     {background: rgba(78, 47, 22, 0.349);
     display: flex;
@@ -65,29 +63,47 @@ header
     align-items: center;
 }
 
+/* Блок */
 section
-    {margin: 0 5% 40px;
-}
+    {margin: 0 5% 40px;}
 
+/* Блок "Игрушки в наличии" */
 .works
     {display: flex;
-    flex-wrap: wrap;
-    justify-content: center;}
+    justify-content: center;
+    min-width: 0;
+    position: relative;
+    padding: 0px 60px;}
 .works__items
     {max-width: 280px; margin-bottom: 20px;}
 .works__container
-    {position: relative; padding: 10px;}
+    {position: relative; padding: 20px;}
 .works__container:hover
-    {position: relative; 
-    
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px black;}
+    {border-radius: 10px;
+    box-shadow: inset 2px 2px 2px black;}
 .works__img
-    {max-width: 250px;}
+    {max-width: 220px;}
 .works__item
     {margin-bottom: 15px;}
 .works__btn
     {padding: 5px 50px;}
+.works .slick-arrow {
+    position: absolute;
+    top: 30%;
+    z-index: 10;
+    font-size: 0;
+    width: 50px; height: 75px;}
+
+/* Слайдер */
+.slick-list {overflow: hidden;}
+.slick-track {display: flex; align-items: flex-start;}
+.slick-arrow.slick-disabled {opacity: 0.1;}
+.slick-arrow.slick-prev {
+    left: 0;
+    background:url('images/buttons/left.svg') 0 0 / 100% no-repeat;}
+.slick-arrow.slick-next {
+    right: 0;
+    background: url('images/buttons/right.svg') 0 0 / 100% no-repeat;}
 
 footer {
     padding: 20px 0;
@@ -96,3 +112,9 @@ footer {
 #footer_logo {
     margin-bottom: 20px;
 }
+
+/* Скролл */
+::-webkit-scrollbar {background: none; width: 10px;}
+::-webkit-scrollbar-thumb {
+    background: chocolate;
+    border-radius: 10px;}
