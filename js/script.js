@@ -8,3 +8,9 @@ $(document).ready(function() {
         ]
     });
 })
+
+$(document).ready(function() {
+    $('.galery').slick({
+        slidesToShow: 1,
+        infinite: false
+    })})

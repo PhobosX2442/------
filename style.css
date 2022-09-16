@@ -102,11 +102,15 @@ section
     background:url('images/buttons/left.svg') 0 0 / 100% no-repeat;}
 .slick-arrow.slick-prev:hover {
     background: url(images/buttons/lefthover.svg) 0 0 / 100% no-repeat;}
-.slick-arrow.slick-next:hover {
-    background: url(images/buttons/righthover.svg) 0 0 / 100% no-repeat;}
+.slick-arrow.slick-prev.slick-disabled {
+    opacity: 10%;}
 .slick-arrow.slick-next {
     right: 0;
     background: url('images/buttons/right.svg') 0 0 / 100% no-repeat;}
+.slick-arrow.slick-next:hover {
+    background: url(images/buttons/righthover.svg) 0 0 / 100% no-repeat;}
+.slick-arrow.slick-next.slick-disabled {
+    opacity: 10%;}
 
 footer {
     padding: 20px 0;
@@ -121,3 +125,45 @@ footer {
 ::-webkit-scrollbar-thumb {
     background: chocolate;
     border-radius: 10px;}
+
+/* Блок выставок */
+.galery { 
+    min-width: 0;
+    position: relative;
+
+}
+.galery__items { 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    padding-left: 1%;
+    padding-right: 1.5%;
+}
+.galery__img {
+    width: 300px;
+}
+.galery__photo {
+    grid-area: 1 / 1 / 4 / 2;
+}
+.galery__name {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.galery__desc {
+    grid-area: 2 / 2 / 3 / 3;
+    max-height: 280px;
+    overflow: auto;
+    background-color: rgb(39, 19, 0);
+    border-radius: 15px;
+    padding: 0 20px;
+}
+.galery__btn {
+    margin-top: 10px;
+    grid-area: 3 / 2 / 4 / 3;
+}
+.galery .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 50px; height: 75px;
+}
