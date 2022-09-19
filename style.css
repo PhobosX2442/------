@@ -48,20 +48,31 @@ li
     color: white;}
 
 /* Логотип */
-.picture {
+.header__picture {
     background: none;
     transition: 2s;}
-.picture:hover {
+.header__picture:hover {
     background: none;
     transform: scale(1.2);}
 
 /* Шапка */
-header 
+.header 
     {background: rgba(78, 47, 22, 0.349);
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; 
 }
+.header.scroll {
+    height: 50px;
+    position: sticky; top: 0;
+    z-index: 11;
+    background: rgb(43, 23, 7);
+    transition: 0.5s;
+}
+.header__picture.scroll {
+    transform: scale(0.5);
+    transition: 0.5s;}
+
 
 /* Блок */
 section

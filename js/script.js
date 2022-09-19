@@ -14,3 +14,16 @@ $(document).ready(function() {
         slidesToShow: 1,
         infinite: false
     })})
+
+$(function() {
+    $(window).scroll(function() {
+var scroll = $(window).scrollTop();
+if (scroll >= 1) {
+            $(".header").addClass('scroll');
+            $(".header__picture").addClass('scroll');
+} else {
+            $(".header").removeClass("scroll");
+            $(".header__picture").removeClass("scroll");
+        }
+    });
+});
