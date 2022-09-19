@@ -1,3 +1,4 @@
+// Слайдер игрушки
 $(document).ready(function() {
     $('.works').slick({
         adaptiveHeight: true,
@@ -9,12 +10,21 @@ $(document).ready(function() {
     });
 })
 
+// Слайдер выставки
 $(document).ready(function() {
     $('.galery').slick({
         slidesToShow: 1,
         infinite: false
     })})
 
+// Слайдер мастер-классов
+$(document).ready(function() {
+    $('.teach').slick({
+        slidesToShow: 1,
+        infinite: false
+    })})
+
+// Шапка скролл
 $(function() {
     $(window).scroll(function() {
 var scroll = $(window).scrollTop();
@@ -27,3 +37,4 @@ if (scroll >= 1) {
         }
     });
 });
+
