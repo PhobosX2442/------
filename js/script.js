@@ -24,6 +24,17 @@ $(document).ready(function() {
         infinite: false
     })})
 
+// Слайдер отзывов
+$(document).ready(function() {
+    $('.otzivi').slick({
+        adaptiveHeight: true,
+        slidesToShow: 6,
+        responsive:[
+            {breakpoint: 1300,
+            settings: {slidesToShow: 4}}
+        ]
+    })})
+
 // Шапка скролл
 $(function() {
     $(window).scroll(function() {

@@ -229,3 +229,38 @@ footer {
     font-size: 0;
     width: 50px; height: 75px;
 }
+
+/* Отзывы */
+#otzivi {height: 1px;}
+.otzivi
+    {display: flex;
+    justify-content: center;
+    min-width: 0;
+    position: relative;
+    padding: 0px 60px;}
+.otzivi__items
+    {max-width: 280px; margin-bottom: 20px;}
+.otzivi__container
+    {padding: 20px;}
+.otzivi__container:hover
+    {border-radius: 10px;
+    box-shadow: inset 2px 2px 2px black;}
+.otzivi__img
+    {max-width: 60px; border-radius: 100%;}
+.otzivi__item
+    {margin-bottom: 15px;
+    max-height: 200px;
+    overflow-y: hidden;}
+.otzivi__btn
+    {padding: 5px 50px;}
+.otzivi .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 50px; height: 75px;
+}
+.item__duo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;}
