@@ -74,12 +74,13 @@ li
     transform: scale(0.5);
     transition: 0.5s;}
 
-
+#about {height: 1px;} 
 /* Блок */
 section
     {margin: 0 5% 40px;}
 
 /* Блок "Игрушки в наличии" */
+#works {height: 1px;}
 .works
     {display: flex;
     justify-content: center;
@@ -139,10 +140,10 @@ footer {
     border-radius: 10px;}
 
 /* Блок выставок */
+#galery {height: 1px;}
 .galery { 
     min-width: 0;
     position: relative;
-
 }
 .galery__items { 
     display: grid;
