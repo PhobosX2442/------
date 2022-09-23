@@ -31,10 +31,6 @@ a:hover
     {color: chocolate;
 }
 
-li
-    {display: inline-flex;
-    margin: 0px 5px;
-}
 /* Кнопка */
 .btn   
     {text-decoration: none;
@@ -72,8 +68,12 @@ li
 }
 .header__picture.scroll {
     transform: scale(0.5);
-    transition: 0.5s;}
-
+    transition: 0.5s;
+}
+.nav-li
+    {display: inline-flex;
+    margin: 0px 5px;
+}
 #about {height: 1px;} 
 /* Блок */
 section
@@ -182,6 +182,9 @@ footer {
 }
 
 /* Блок мастер-классов */
+#teach {
+    height: 1px;
+}
 .teach { 
     min-width: 0;
     position: relative;
@@ -264,3 +267,33 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;}
+
+/* Блок обратной связи */
+#contact {
+    height: 1px;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.contact-btn   {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    min-width: 300px;
+    border: solid rgb(131, 67, 8);
+    border-radius: 100px;
+    transition: 0.7s;
+    height: 50px;
+}
+.contact-btn:hover
+    {background: rgb(131, 67, 8);
+    color: white;}
+.contact-icon {
+    min-width: 40px;
+    margin-right: 20px;
+}
