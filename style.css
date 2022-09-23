@@ -86,9 +86,11 @@ section
     justify-content: center;
     min-width: 0;
     position: relative;
-    padding: 0px 60px;}
+    padding: 0px 60px;
+}
 .works__items
-    {max-width: 280px; margin-bottom: 20px;}
+    {max-width: 280px; margin-bottom: 20px;
+    overflow-x: hidden;}
 .works__container
     {padding: 20px;}
 .works__container:hover
@@ -242,7 +244,8 @@ footer {
     position: relative;
     padding: 0px 60px;}
 .otzivi__items
-    {max-width: 280px; margin-bottom: 20px;}
+    {max-width: 280px; margin-bottom: 20px;
+    overflow-x: hidden;}
 .otzivi__container
     {padding: 20px;}
 .otzivi__container:hover
