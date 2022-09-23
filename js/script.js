@@ -4,8 +4,12 @@ $(document).ready(function() {
         adaptiveHeight: true,
         slidesToShow: 6,
         responsive:[
-            {breakpoint: 1200,
-            settings: {slidesToShow: 4}}
+            {breakpoint: 1420,
+            settings: {slidesToShow: 5}},
+            {breakpoint: 1220,
+            settings: {slidesToShow: 4}},
+            {breakpoint: 1000,
+            settings: {slidesToShow: 3}}
         ]
     });
 })
