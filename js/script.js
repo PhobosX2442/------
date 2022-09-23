@@ -4,7 +4,7 @@ $(document).ready(function() {
         adaptiveHeight: true,
         slidesToShow: 6,
         responsive:[
-            {breakpoint: 1300,
+            {breakpoint: 1200,
             settings: {slidesToShow: 4}}
         ]
     });
@@ -30,7 +30,7 @@ $(document).ready(function() {
         adaptiveHeight: true,
         slidesToShow: 6,
         responsive:[
-            {breakpoint: 1300,
+            {breakpoint: 1200,
             settings: {slidesToShow: 4}}
         ]
     })})
