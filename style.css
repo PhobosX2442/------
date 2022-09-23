@@ -256,7 +256,7 @@ footer {
 .otzivi__item
     {margin-bottom: 15px;
     max-height: 200px;
-    overflow-y: hidden;}
+    overflow: hidden;}
 .otzivi__btn
     {padding: 5px 50px;}
 .otzivi .slick-arrow {
@@ -269,7 +269,8 @@ footer {
 .item__duo {
     display: flex;
     align-items: center;
-    justify-content: space-around;}
+    justify-content: space-around;
+    flex-wrap: wrap;}
 
 /* Блок обратной связи */
 #contact {
