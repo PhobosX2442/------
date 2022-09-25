@@ -24,16 +24,36 @@
     <header class="header">
         <a href="index.html" class="header__picture"> <img src="images/logotip.png" alt="логотип" height="100px"></a>
         <nav>
+            <!-- Обычное меню шапки -->
             <ul>
-                <li class="nav-li"><a class="btn" href="#about">Обо мне</a></li>
-                <li class="nav-li"><a class="btn" href="#works">Игрушки в наличии</a></li>
-                <li class="nav-li"><a class="btn" href="#galery">Выставки</a></li>
-                <li class="nav-li"><a class="btn" href="#teach">Мастер-класс</a></li>
-                <li class="nav-li"><a class="btn" href="#otzivi">Отзывы</a></li>
-                <li class="nav-li"><a class="btn" href="#contact">Связаться со мной</a></li>
+                <li class="nav-li"><a class="head-btn" href="#about">Обо мне</a></li>
+                <li class="nav-li"><a class="head-btn" href="#works">Игрушки в наличии</a></li>
+                <li class="nav-li"><a class="head-btn" href="#galery">Выставки</a></li>
+                <li class="nav-li"><a class="head-btn" href="#teach">Мастер-класс</a></li>
+                <li class="nav-li"><a class="head-btn" href="#otzivi">Отзывы</a></li>
+                <li class="nav-li"><a class="head-btn" href="#contact">Связаться со мной</a></li>
+                
             </ul>
         </nav>
+            <!-- Уменьшенное меню шапки -->
+            <div class="nav-hiddenboss">
+                <div class="accordeon check">
+                    <input id="panel" type="checkbox"/>
+                    <div class="panel">
+                        <ul>
+                            <li class="nav-hidden"><a class="head-btn" href="#about">Обо мне</a></li>
+                            <li class="nav-hidden"><a class="head-btn" href="#works">Игрушки в наличии</a></li>
+                            <li class="nav-hidden"><a class="head-btn" href="#galery">Выставки</a></li>
+                            <li class="nav-hidden"><a class="head-btn" href="#teach">Мастер-класс</a></li>
+                            <li class="nav-hidden"><a class="head-btn" href="#otzivi">Отзывы</a></li>
+                            <li class="nav-hidden"><a class="head-btn" href="#contact">Связаться со мной</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <label for="panel">Меню</label>
     </header>
+
     <!-- Обо мне -->
     <section class="about">
         <div id="about"></div>
@@ -519,6 +539,8 @@
     <script src="js/slick.js"></script>
     <script src="js/script.js"></script>
     <script src="videotube/videotube.min.js"></script>
+
+
 </body>
 
 </html>
