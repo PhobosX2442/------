@@ -58,7 +58,7 @@ a:hover
     {background: rgba(78, 47, 22, 0.349);
     display: flex;
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;
 }
 .header.scroll {
     height: 50px;
@@ -66,7 +66,7 @@ a:hover
     left: 0; right: 0; top: 0;
     z-index: 11;
     background: rgb(43, 23, 7);
-    transition: 0.5s;
+    transition: 2s;
 }
 .header__picture.scroll {
     transform: scale(0.5);
@@ -175,12 +175,14 @@ footer {
     grid-template-rows: 1fr 6fr 1fr;
     padding-left: 1%;
     padding-right: 1.5%;
+    column-gap: 20px;
 }
 .galery__img {
-    width: 300px;
+    width: 100%;
 }
 .galery__photo {
     grid-area: 1 / 1 / 4 / 2;
+    align-self: center;
 }
 .galery__name {
     grid-area: 1 / 2 / 2 / 3;
@@ -286,7 +288,8 @@ footer {
     max-height: 200px;
     overflow: hidden;}
 .otzivi__btn
-    {padding: 5px 50px;}
+    {padding: 5px 50px;
+    }
 .otzivi .slick-arrow {
     position: absolute;
     top: 50%;
@@ -377,3 +380,34 @@ label:hover {
         opacity: 1;
         padding: 1.5em;
     }
+
+@media (max-width: 600px) {
+    .galery__items { 
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 5fr 1fr;
+        padding-left: 1%;
+        padding-right: 1.5%;
+        column-gap: 20px;
+    }
+    .galery__desc {
+        grid-area: 2 / 2 / 3 / 3;
+        max-height: 180px;
+        overflow: auto;
+        background-color: rgb(39, 19, 0);
+        border-radius: 15px;
+        padding: 0 20px;
+        margin: 5px 0;
+    }
+    .teach__items {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .teach__btn {
+        padding: 10px 0;
+    }
+    .slick-arrow {
+        padding-top: 100px;
+    }
+}

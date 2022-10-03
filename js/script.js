@@ -9,7 +9,9 @@ $(document).ready(function() {
             {breakpoint: 1220,
             settings: {slidesToShow: 4}},
             {breakpoint: 1000,
-            settings: {slidesToShow: 3}}
+            settings: {slidesToShow: 3}},
+            {breakpoint: 600,
+            settings: {slidesToShow: 2}}
         ]
     });
 })
@@ -39,7 +41,9 @@ $(document).ready(function() {
             {breakpoint: 1220,
             settings: {slidesToShow: 4}},
             {breakpoint: 1000,
-            settings: {slidesToShow: 3}}
+            settings: {slidesToShow: 3}},
+            {breakpoint: 600,
+            settings: {slidesToShow: 2}}
         ]
     })})
 
