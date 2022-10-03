@@ -4,6 +4,7 @@ body
     font-size: 150%;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 
 html
@@ -109,6 +110,7 @@ section
     min-width: 0;
     position: relative;
     padding: 0px 60px;
+    overflow-x: hidden;
 }
 .works__items
     {max-width: 280px; margin-bottom: 20px;
@@ -165,8 +167,8 @@ footer {
     border-radius: 10px;}
 ::-webkit-scrollbar-thumb:horizontal {
     background: none;}
-    ::-webkit-scrollbar-corner {
-        background: none;
+::-webkit-scrollbar-corner {
+    background: none;
 }
 
 /* Блок выставок */
@@ -295,7 +297,8 @@ footer {
 .otzivi__item
     {margin-bottom: 15px;
     max-height: 200px;
-    overflow: hidden;}
+    overflow: hidden;
+    border: bottom solid ;}
 .otzivi__btn
     {padding: 5px 50px;
     }
@@ -421,4 +424,13 @@ label:hover {
         display: none;
         visibility: hidden;
     }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {font-size: 150%;}
+    h2 {font-size: 120%;}
+    h3 {font-size: 80%;}
+    h4 {font-size: 70%;}
+    .galery__desc {font-size: 60%;}
+    .teach__desc {font-size: 60%;}
 }
