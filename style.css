@@ -412,6 +412,6 @@ label:hover {
         padding: 10px 0;
     }
     .slick-arrow {
-        padding-top: 100px;
+        display: none;
     }
 }
