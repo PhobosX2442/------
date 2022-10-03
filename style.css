@@ -66,7 +66,7 @@ a:hover
     left: 0; right: 0; top: 0;
     z-index: 11;
     background: rgb(43, 23, 7);
-    transition: 2s;
+    transition: 0.5s;
 }
 .header__picture.scroll {
     transform: scale(0.5);
@@ -163,6 +163,11 @@ footer {
 ::-webkit-scrollbar-thumb {
     background: chocolate;
     border-radius: 10px;}
+::-webkit-scrollbar-thumb:horizontal {
+    background: none;}
+    ::-webkit-scrollbar-corner {
+        background: none;
+}
 
 /* Блок выставок */
 #galery {height: 1px;}
@@ -194,10 +199,10 @@ footer {
 .galery__desc {
     grid-area: 2 / 2 / 3 / 3;
     max-height: 280px;
-    overflow: auto;
     background-color: rgb(39, 19, 0);
     border-radius: 15px;
     padding: 0 20px;
+    overflow-x: hidden;
 }
 .galery__btn {
     margin-top: 10px;
@@ -340,7 +345,7 @@ footer {
 
 
 /* 1000 пикселей */
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .nav-li {
         display: none;}
     .header__picture {
@@ -385,7 +390,8 @@ label:hover {
         padding: 1.5em;
     }
 
-@media (max-width: 600px) {
+/* 600px */
+@media screen and (max-width: 600px) {
     .galery__items { 
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -413,5 +419,6 @@ label:hover {
     }
     .slick-arrow {
         display: none;
+        visibility: hidden;
     }
 }

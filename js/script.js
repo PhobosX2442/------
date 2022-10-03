@@ -11,7 +11,9 @@ $(document).ready(function() {
             {breakpoint: 1000,
             settings: {slidesToShow: 3}},
             {breakpoint: 600,
-            settings: {slidesToShow: 2}}
+            settings: {slidesToShow: 2}},
+            {breakpoint: 400,
+            settings: {slidesToShow: 1}}
         ]
     });
 })
@@ -43,7 +45,9 @@ $(document).ready(function() {
             {breakpoint: 1000,
             settings: {slidesToShow: 3}},
             {breakpoint: 600,
-            settings: {slidesToShow: 2}}
+            settings: {slidesToShow: 2}},
+            {breakpoint: 400,
+            settings: {slidesToShow: 1}}
         ]
     })})
 
