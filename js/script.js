@@ -9,11 +9,11 @@ $(document).ready(function() {
             {breakpoint: 1220,
             settings: {slidesToShow: 4}},
             {breakpoint: 1000,
-            settings: {slidesToShow: 3}},
+            settings: {slidesToShow: 3, arrows: false}},
             {breakpoint: 600,
-            settings: {slidesToShow: 2}},
+            settings: {slidesToShow: 2, arrows: false}},
             {breakpoint: 400,
-            settings: {slidesToShow: 1}}
+            settings: {slidesToShow: 1, arrows: false}}
         ]
     });
 })
@@ -22,15 +22,22 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.galery').slick({
         slidesToShow: 1,
-        infinite: false
+        infinite: false,
+        responsive:[
+            {breakpoint: 1000,
+            settings : {arrows: false}}
+        ]
     })})
 
 // Слайдер мастер-классов
 $(document).ready(function() {
     $('.teach').slick({
         slidesToShow: 1,
-        infinite: false
-    
+        infinite: false,
+        responsive:[
+            {breakpoint: 1000,
+            settings : {arrows: false}}
+        ]
     })})
 
 // Слайдер отзывов
@@ -44,11 +51,11 @@ $(document).ready(function() {
             {breakpoint: 1220,
             settings: {slidesToShow: 4}},
             {breakpoint: 1000,
-            settings: {slidesToShow: 3}},
+            settings: {slidesToShow: 3, arrows: false}},
             {breakpoint: 600,
-            settings: {slidesToShow: 2}},
+            settings: {slidesToShow: 2, arrows: false}},
             {breakpoint: 400,
-            settings: {slidesToShow: 1}}
+            settings: {slidesToShow: 1, arrows: false}}
         ]
     })})
 
