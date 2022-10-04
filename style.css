@@ -363,6 +363,9 @@ footer {
     label {
         visibility: visible; 
     }
+    .slick-arrow { 
+        visibility: hidden;
+    }
 }
 
 label {
@@ -418,10 +421,6 @@ label:hover {
     }
     .teach__btn {
         padding: 10px 0;
-    }
-    .slick-arrow {
-        display: none;
-        visibility: hidden;
     }
 }
 

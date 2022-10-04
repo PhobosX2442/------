@@ -30,6 +30,7 @@ $(document).ready(function() {
     $('.teach').slick({
         slidesToShow: 1,
         infinite: false
+    
     })})
 
 // Слайдер отзывов
@@ -64,4 +65,3 @@ if (scroll >= 1) {
         }
     });
 });
-
