@@ -10,9 +10,9 @@ $(document).ready(function() {
             settings: {slidesToShow: 4}},
             {breakpoint: 1000,
             settings: {slidesToShow: 3, arrows: false}},
-            {breakpoint: 600,
+            {breakpoint: 700,
             settings: {slidesToShow: 2, arrows: false}},
-            {breakpoint: 400,
+            {breakpoint: 500,
             settings: {slidesToShow: 1, arrows: false}}
         ]
     });
@@ -52,9 +52,9 @@ $(document).ready(function() {
             settings: {slidesToShow: 4}},
             {breakpoint: 1000,
             settings: {slidesToShow: 3, arrows: false}},
-            {breakpoint: 600,
+            {breakpoint: 700,
             settings: {slidesToShow: 2, arrows: false}},
-            {breakpoint: 400,
+            {breakpoint: 500,
             settings: {slidesToShow: 1, arrows: false}}
         ]
     })})
