@@ -395,8 +395,8 @@ label:hover {
         padding: 1.5em;
     }
 
-/* 600px */
-@media screen and (max-width: 600px) {
+/* 700px */
+@media screen and (max-width: 700px) {
     .galery__items { 
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -422,13 +422,27 @@ label:hover {
     .teach__btn {
         padding: 10px 0;
     }
+    .works__items { 
+        max-width: fit-content;
+        overflow: hidden;}
+    .otzivi__items { 
+        max-width: fit-content;
+        overflow: hidden;}
 }
 
-@media screen and (max-width: 400px) {
+/* 500px */
+@media screen and (max-width: 500px) {
     h1 {font-size: 150%;}
     h2 {font-size: 120%;}
     h3 {font-size: 80%;}
     h4 {font-size: 70%;}
     .galery__desc {font-size: 60%;}
     .teach__desc {font-size: 60%;}
+    section {margin: 0 1% 40px;}
+    .works__items { 
+        max-width: fit-content;
+        overflow: hidden;}
+    .otzivi__items { 
+        max-width: fit-content;
+        overflow: hidden;}
 }
