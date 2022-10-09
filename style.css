@@ -56,7 +56,9 @@ a:hover
     border-radius: 20px;
     display: none;
 }
-#more {display: none;}
+#more {
+    display: inline;
+}
 
 /* Логотип */
 .header__picture {
@@ -469,7 +471,6 @@ label:hover {
     .otzivi__items { 
         max-width: fit-content;
         overflow: hidden;}
-    #myBtn {
-        display: inline;
-    }
+    #myBtn {display: inline;}
+    #more {display: none;}
 }
