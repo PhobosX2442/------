@@ -46,15 +46,17 @@ a:hover
     {background: rgb(131, 67, 8);
     color: white;}
 
+/* Кнопка "Читать далее" */
 #myBtn {
     margin-top: 10px;
     color: white;
     background: rgb(70, 39, 14);
-    padding: 5px;
-    font-size: 60%;
+    padding: 10px;
+    font-size: 70%;
     border-radius: 20px;
     display: none;
 }
+#more {display: none;}
 
 /* Логотип */
 .header__picture {
