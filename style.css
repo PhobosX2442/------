@@ -46,6 +46,16 @@ a:hover
     {background: rgb(131, 67, 8);
     color: white;}
 
+#myBtn {
+    margin-top: 10px;
+    color: white;
+    background: rgb(70, 39, 14);
+    padding: 5px;
+    font-size: 60%;
+    border-radius: 20px;
+    display: none;
+}
+
 /* Логотип */
 .header__picture {
     background: none;
@@ -297,8 +307,20 @@ footer {
     {margin-bottom: 15px;
     max-height: 200px;
     overflow: hidden;
-    border: bottom solid ;}
-.otzivi__btn
+    position: relative;
+}
+.otzivi__desc::after {
+	content: "";
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100px;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #2b1602 100%);
+	pointer-events: none;
+}
+    .otzivi__btn
     {padding: 5px 50px;
     }
 .otzivi .slick-arrow {
@@ -445,4 +467,7 @@ label:hover {
     .otzivi__items { 
         max-width: fit-content;
         overflow: hidden;}
+    #myBtn {
+        display: inline;
+    }
 }
