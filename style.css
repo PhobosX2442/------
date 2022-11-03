@@ -131,10 +131,9 @@ section
     {padding: 20px;}
 .works__container:hover
     {border-radius: 10px;
-    box-shadow: inset 2px 2px 2px black;}
+    box-shadow: inset 0px 0px 4px 2px black;}
 .works__img
-    {max-width: 220px;
-    justify-self: center;}
+    {max-width: 220px;}
 .works__item
     {margin-bottom: 20px;}
 .works__btn
@@ -371,6 +370,11 @@ footer {
 }
 
 
+@media screen and (max-width: 1300px) {
+    .works__img {
+        padding-right: 50px;
+    }
+}
 
 /* 1000 пикселей */
 @media screen and (max-width: 1000px) {
