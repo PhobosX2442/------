@@ -21,7 +21,7 @@ h2
     font-weight: bold;}
 h3 {
     line-height: 120%;}
-h4
+h4, blockquote
     {font-size: 80%;}
 
 a   
@@ -465,7 +465,7 @@ label:hover {
     h1 {font-size: 150%;}
     h2 {font-size: 120%;}
     h3 {font-size: 80%;}
-    h4 {font-size: 70%;}
+    h4, blockquote {font-size: 70%;}
     .galery__desc {font-size: 60%;}
     .teach__desc {font-size: 60%;}
     section {margin: 0 1% 40px;}
