@@ -112,6 +112,7 @@ label {
     {background: rgb(131, 67, 8);
     color: white;}
 #about {height: 1px;} 
+.about {padding: 0 40px;}
 /* Блок */
 section
     {margin: 0 5% 40px;}
