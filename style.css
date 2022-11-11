@@ -344,6 +344,9 @@ footer {
 #contact {
     height: 1px;
 }
+.con__body {
+    padding-bottom: 40px;
+}
 .contact {
     display: flex;
     justify-content: center;
