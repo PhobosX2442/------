@@ -65,9 +65,11 @@ $(function() {
 var scroll = $(window).scrollTop();
 if (scroll >= 1) {
             $(".header").addClass('scroll');
+            $(".about").addClass('scroll');
             $(".header__picture").addClass('scroll');
 } else {
             $(".header").removeClass("scroll");
+            $(".about").removeClass("scroll");
             $(".header__picture").removeClass("scroll");
         }
     });
